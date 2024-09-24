@@ -48,4 +48,5 @@ python video_processing.py
 ```
 
 **Output**
+
 The processed video will be saved with the same filename as the original video. Each video will start with the intro, followed by the full video with a logo overlay.
