@@ -11,7 +11,7 @@ This project processes videos by applying a logo overlay and dynamic text based 
 **Directory Structure**
 The project expects the following directory structure:
 .
-├── AltIntro.mp4       # Intro video to be appended at the start of each video.
+```├── AltIntro.mp4       # Intro video to be appended at the start of each video.
 ├── Nhce_Logo.png      # Logo image to be overlaid on the video.
 ├── DBMS               # Directory containing lab videos 
 │   ├── example_1.mp4
@@ -21,7 +21,7 @@ The project expects the following directory structure:
 │   ├── os_1.mp4
 │   ├── os_2.mp4
 │   └── ...
-└── video_processing.py # The script file (your main code).
+└── video_processing.py # The script file (your main code).```
 
 **Prerequisites**
 Python 3.x: Make sure you have Python installed. 
@@ -32,14 +32,15 @@ pip install moviepy pillow
 
 **How to Run**
 - Clone the repository:
-  
+  https://github.com/astha-05/LabXpert.git
 - cd video-processing
 - Add your video files: Place your .mp4 video files in the DBMS or OS directories.
 - Ensure logo and intro are available: 
-Make sure you have:
+- Make sure you have:
 Nhce_Logo.png in the root directory for the logo.
 AltIntro.mp4 in the root directory for the intro clip.
 - Run the Script: Run the script using the following command:
 python video_processing.py
+
 **Output**
 The processed video will be saved with the same filename as the original video. Each video will start with the intro, followed by the full video with a logo overlay.
