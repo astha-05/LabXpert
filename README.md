@@ -21,7 +21,8 @@ The project expects the following directory structure:
 │   ├── os_1.mp4
 │   ├── os_2.mp4
 │   └── ...
-└── video_processing.py # The script file (your main code).```
+└── video_processing.py # The script file (your main code).
+```
 
 **Prerequisites**
 Python 3.x: Make sure you have Python installed. 
