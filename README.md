@@ -25,23 +25,24 @@ The project expects the following directory structure:
 ```
 
 **Prerequisites**
-Python 3.x: Make sure you have Python installed. 
-ImageMagick: This project requires ImageMagick for image processing. 
-
-Required Libraries: Install the necessary Python libraries by running:
-pip install moviepy pillow
+- Python 3.x: Make sure you have Python installed. 
+- ImageMagick: This project requires ImageMagick for image processing. 
+- Required Libraries: Install the necessary Python libraries by running:
+```pip install moviepy pillow
+```
 
 **How to Run**
 - Clone the repository:
   https://github.com/astha-05/LabXpert.git
-- cd video-processing
+```cd video-processing
+```
 - Add your video files: Place your .mp4 video files in the DBMS or OS directories.
-- Ensure logo and intro are available: 
 - Make sure you have:
 Nhce_Logo.png in the root directory for the logo.
 AltIntro.mp4 in the root directory for the intro clip.
 - Run the Script: Run the script using the following command:
-python video_processing.py
+```python video_processing.py
+```
 
 **Output**
 The processed video will be saved with the same filename as the original video. Each video will start with the intro, followed by the full video with a logo overlay.
