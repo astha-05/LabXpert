@@ -30,7 +30,6 @@ The project expects the following directory structure:
 - Required Libraries: Install the necessary Python libraries by running:
 ```
 pip install moviepy pillow
-
 ```
 
 **How to Run**
@@ -38,7 +37,6 @@ pip install moviepy pillow
   https://github.com/astha-05/LabXpert.git
 ```
 cd video-processing
-
 ```
 - Add your video files: Place your .mp4 video files in the DBMS or OS directories.
 - Make sure you have:
@@ -47,7 +45,6 @@ AltIntro.mp4 in the root directory for the intro clip.
 - Run the Script: Run the script using the following command:
 ```
 python video_processing.py
-
 ```
 
 **Output**
